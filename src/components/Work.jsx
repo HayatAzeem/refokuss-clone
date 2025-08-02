@@ -3,15 +3,45 @@ import React from 'react'
 function Work() {
     
     var images = [
-        {url: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", top: "50%", left : "50%", isActive: false},
-        {url: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", top: "56%", left : "44%", isActive: false},
-        {url: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", top: "45%", left : "56%", isActive: false},
-        {url: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", top: "60%", left : "453%", isActive: false},
-        {url: "https://images.unsplash.com/photo-1562408590-e32931084e23?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", top: "43%", left : "40%", isActive: false},
-        {url: "https://images.unsplash.com/photo-1576400883215-7083980b6193?q=80&w=1113&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", top: "65%", left : "55%", isActive: false},
+        {
+            url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef09178195ce0073e38f3_Refokus%20Tools-1.png",
+            top: "50%",
+            left: "50%",
+            isActive: false,
+        },
+        {
+            url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0accfe1b3e66bc55462_Refokus%20Tools.png",
+            top: "56%",
+            left: "44%",
+            isActive: false,
+        },
+        {
+            url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0acbc45cb2f4fc5c6b2_Yahoo.png",
+            top: "45%",
+            left: "56%",
+            isActive: false,
+        },
+        {
+            url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef092455ce2cf591e52d1_Rainfall.png",
+            top: "60%",
+            left: "53%",
+            isActive: false,
+        },
+        {
+            url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0ac7e7179d210dc41f0_Summon.png",
+            top: "43%",
+            left: "40%",
+            isActive: false,
+        },
+        {
+            url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0af108a465002975acd_Showcase%20Websites%20(1).png",
+            top: "65%",
+            left: "55%",
+            isActive: false,
+        }
     ]
   return (
-    <div className='w-full'>
+    <div className='w-full mt-30'>
         <div className='relative max-w-screen-xl mx-auto text-center'>
             <h1 className='text-[20vw] font-sans leading-none select-none font-medium tracking-tight'>Work</h1>
             <div className='absolute top-0 w-full h-full'>
